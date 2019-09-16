@@ -5,7 +5,7 @@ terraform {
 provider "google" {
   //Use the credentials file or environment variables
   //https://www.terraform.io/docs/providers/google/provider_reference.html
-  credentials = "${var.GOOGLE_CREDENTIALS}"
+  //credentials = "${var.GOOGLE_CREDENTIALS}"
   project     = "${var.gcp_project}"
   region      = "${var.gcp_region}"
 }
