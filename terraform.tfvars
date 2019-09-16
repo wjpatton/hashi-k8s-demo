@@ -4,6 +4,6 @@ gcp_project = "william-252822"
 cluster_name = "william-gcp-cluster"
 initial_node_count = 3
 master_username = "k8smaster"
-master_password = "SuperSecretPassword4Demo!"
+master_password = "k8smasterk8smaster"
 node_machine_type = "n1-standard-2"
 node_disk_size = "30"
