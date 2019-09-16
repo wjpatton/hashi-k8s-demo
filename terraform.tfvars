@@ -1,6 +1,6 @@
 gcp_region = "us-east1"
 gcp_zone = "us-east1-b"
-gcp_project = "william"
+gcp_project = "william-252822"
 cluster_name = "william-gcp-cluster"
 initial_node_count = 3
 master_username = "k8smaster"
