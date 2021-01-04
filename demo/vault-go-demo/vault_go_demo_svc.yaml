@@ -1,12 +1,13 @@
 kind: Service
 apiVersion: v1
 metadata:
-  name: k8s-transit-app
+  name: vault-go-demo
 spec:
   selector:
-    app: k8s-transit-app
+    app: vault-go-demo
+    version: v1
   ports:
   - protocol: TCP
-    port: 5000
-    targetPort: 5000
+    port: 9090
+    targetPort: 9090
   type: LoadBalancer
